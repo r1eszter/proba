@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RE_adatbazis>
+
+	<dolgozo>
+		<kod_key-attribute> 2 3 4 </kod_key-attribute>
+		<nev> Rontó Eszter </nev>
+		<fizetes> 1 2 3 4 5 6 7 8</fizetes>
+	</dolgozo>
+	
+</RE_adatbazis>

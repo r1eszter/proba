@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<REmodell>
+
+	<relationship_AB> R1
+		<entity_A role-name="R1"> A </entity_A>
+		<entity_B role-name="R1"> B </entity_B>
+	</relationship_AB>
+
+	<entity_A> A
+		<key-attribute> a </key-attribute>
+		<multivalued-attrinute> b 
+			<attribute> x </attribute>
+			<attribute> y </attribute>
+		</multivalued-attrinute>
+		<attribute> c
+			<attribute> d </attribute>
+			<attribute> e </attribute>
+		</attribute>
+	</entity_A>
+
+	<entity_B> B
+		<key-attribute> a </key-attribute>
+		<relationship> R2
+			<entity role-name="R2"> B </entity>
+			<entity role-name="R2"> C </entity>
+		</relationship>
+		<attribute> b
+			<attribute> x </attribute>
+			<attribute> y </attribute>
+		</attribute>
+	</entity_B>
+
+	<entity_C> C
+		<key-attribute> a </key-attribute>
+		<attribute> b </attribute>
+	</entity_C>
+	
+</REmodell>

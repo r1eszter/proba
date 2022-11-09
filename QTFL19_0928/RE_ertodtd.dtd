@@ -1,0 +1,23 @@
+<!ELEMENT REmodell (relationship_AB, entity_A, entity_B, entity_C)>
+
+	<!ELEMENT relationship_AB (entity_A, entity_B)>
+		<!ATTLIST relationship_AB
+				 role-name #PCDATA>
+
+		<!ELEMENT entity_A (#PCDATA)>
+		<!ELEMENT entity_B (#PCDATA)>
+
+	<!ELEMENT entity_A (key-attribute, multivalued-attrinute, attribute)>
+		<!ELEMENT key-attribute (#PCDATA)>
+		<!ELEMENT multivalued-attrinute (#PCDATA)>
+		<!ELEMENT attribute (#PCDATA)>
+
+	<!ELEMENT entity_B (key-attribute, relationship, attribute)>
+		<!ELEMENT key-attribute (#PCDATA)>
+		<!ELEMENT relationship (#PCDATA)>
+		<!ELEMENT attribute (#PCDATA)>
+
+	<!ELEMENT entity_C (key-attribute, attribute)>
+		<!ELEMENT key-attribute (#PCDATA)>
+		<!ELEMENT attribute (#PCDATA)>
+	

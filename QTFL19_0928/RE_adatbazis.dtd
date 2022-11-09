@@ -1,0 +1,12 @@
+<!ELEMENT RE_adatbazis(dolgozo)>
+	
+	<!ELEMENT dolgozo (kod_key-attribute, nev, fizetes)>
+		<!ELEMENT kod_key-attribute(#CDATA)>
+			<!ATTLIST kod_key-attribute
+				 number 3 #CDATA #FIXED>
+		<!ELEMENT nev>
+			<!ATTLIST nev
+				 char 20 #PCDATA #FIXED>
+		<!ELEMENT fizetes>
+			<!ATTLIST fizetes
+				 number 8 #CDATA #FIXED>

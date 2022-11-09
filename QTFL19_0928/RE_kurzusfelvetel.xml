@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RE_kurzusfelvetel>
+
+	<hallgato id="QTFL19">
+		<nev> Ronto Eszter </nev>
+		<szulev> 2001.08.23 </szulev>
+		<szak felev="5"> Programtervezo informatika</szak>
+	</hallgato>
+
+	<kurzosok>
+		<kurzus id="GEAIL33-B">
+			<kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+			<kredit> 5 </kredit>
+			<hely> Inf/101 </hely>
+			<idopont> Szerda 10:00 - 12:00</idopont>
+			<oktato> Dr.Bednarik László </oktato>
+		</kurzus>
+
+		<kurzus id="GEAIL35-B">
+			<kurzusnev>Mesterséges Intelligencia</kurzusnev>
+			<kredit> 5 </kredit>
+			<hely> A2/2 </hely>
+			<idopont> Kedd 9:00 - 12:00</idopont>
+			<oktato> Kunné Dr. Tamási Judit </oktato>
+		</kurzus>
+
+		<kurzus id="GEAIL38-B">
+			<kurzusnev>Webtechnológiák 1</kurzusnev>
+			<kredit> 5 </kredit>
+			<hely> A1/305 </hely>
+			<idopont> Hétfő 8:00 - 10:00</idopont>
+			<oktato> Agárdi Anita </oktato>
+		</kurzus>
+	</kurzosok>
+	
+	
+</RE_kurzusfelvetel>
