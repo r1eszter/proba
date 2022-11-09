@@ -1,0 +1,34 @@
+<?xml version ="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:element name="orarend">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="ora" type="oraTipus" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:key name="ora-kulcs">
+		<xs:selector xpath="ora/>
+		<xs:field xpath="@id"/>
+	</xs:key>
+
+	<xs:key name="ora-tipus">
+		<xs:selector xpath="ora/>
+		<xs:field xpath="@tipus"/>
+	</xs:key>
+
+	<xs:element name="targy" type="targyTipus" maxOccurs="unbounded"/>
+	<xs:element name="idopont" type="idopontTipus" maxOccurs="unbounded">
+		<xs:element name="nap" type="napTipus" maxOccurs="unbounded"/>
+		<xs:element name="tol" type="tolTipus" maxOccurs="unbounded"/>
+		<xs:element name="ig" type="igTipus" maxOccurs="unbounded"/>
+	</xs:element>
+	<xs:element name="helyszin" type="helyszinTipus" maxOccurs="unbounded"/>
+	<xs:element name="oktato" type="oktatoTipus" maxOccurs="unbounded"/>
+	<xs:element name="szak" type="szakTipus" maxOccurs="unbounded"/>
+
+	</xs:element>
+
+</xs:schema>
