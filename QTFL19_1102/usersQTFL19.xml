@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<users>
+	<user uid="1">
+		<firstname>Eszter</firstname>
+		<lastname>Rontó</lastname>
+		<profession>Telekom</profession>
+	</user>
+</users>
