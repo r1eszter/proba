@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+	
+	<ora id="1" tipus="matek">
+		<targy> ValSzam </targy>
+		<idopont>
+			<nap> hetfo </nap>
+			<tol> 8 </tol>
+			<ig> 10 </ig>
+		</idopont>
+		<helyszin>  A1/5 </helyszin>
+		<oktato> Fegyverneki </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+	
+	<ora id="2" tipus="info">
+		<targy> WebTech1 </targy>
+		<idopont>
+			<nap> hetfo </nap>
+			<tol> 8 </tol>
+			<ig> 10 </ig>
+		</idopont>
+		<helyszin>  A1/305 </helyszin>
+		<oktato> A. Anita </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+	
+	<ora id="3" tipus="matek">
+		<targy> ValSzam </targy>
+		<idopont>
+			<nap> hetfo </nap>
+			<tol> 14 </tol>
+			<ig> 16 </ig>
+		</idopont>
+		<helyszin>  A1/315 </helyszin>
+		<oktato> Fegyverneki </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+	
+	<ora id="4" tipus="info">
+		<targy> WebTech1 </targy>
+		<idopont>
+			<nap> hetfo </nap>
+			<tol> 16 </tol>
+			<ig> 18 </ig>
+		</idopont>
+		<helyszin>  Inf/103 </helyszin>
+		<oktato> A. Anita </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+	
+	
+	<ora id="5" tipus="info">
+		<targy> MesInt </targy>
+		<idopont>
+			<nap> kedd </nap>
+			<tol> 9 </tol>
+			<ig> 12 </ig>
+		</idopont>
+		<helyszin>  A2/2 </helyszin>
+		<oktato> Dr. T. Judit </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+
+	<ora id="6" tipus="info">
+		<targy> XML </targy>
+		<idopont>
+			<nap> kedd </nap>
+			<tol> 12 </tol>
+			<ig> 14 </ig>
+		</idopont>
+		<helyszin>  A1/32 </helyszin>
+		<oktato> Dr. B. László </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+	<ora id="7" tipus="info">
+		<targy> AlgVizsg </targy>
+		<idopont>
+			<nap> kedd </nap>
+			<tol> 14 </tol>
+			<ig> 18 </ig>
+		</idopont>
+		<helyszin>  A1/10 </helyszin>
+		<oktato> Házy </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+
+	<ora id="8" tipus="info">
+		<targy> MesInt </targy>
+		<idopont>
+			<nap> szerda </nap>
+			<tol> 8 </tol>
+			<ig> 9 </ig>
+		</idopont>
+		<helyszin>  Inf/15 </helyszin>
+		<oktato> Dr. T. Judit </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+
+	<ora id="9" tipus="info">
+		<targy> XML </targy>
+		<idopont>
+			<nap> szerda </nap>
+			<tol> 10 </tol>
+			<ig> 12 </ig>
+		</idopont>
+		<helyszin>  Inf/101 </helyszin>
+		<oktato> Dr. B. László </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+
+	<ora id="10" tipus="info">
+		<targy> ValInf </targy>
+		<idopont>
+			<nap> szerda </nap>
+			<tol> 16 </tol>
+			<ig> 20 </ig>
+		</idopont>
+		<helyszin>  Inf/103 </helyszin>
+		<oktato> Dr. S. Péter </oktato>
+		<szak> ProgTerv </szak>
+	</ora>
+
+
+	
+</orarend>

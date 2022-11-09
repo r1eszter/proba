@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+	
+	<cim nev="Valami"/>
+	
+	<hallgatok>
+		<hallgato id="1">
+			<nev neve="Garamszegi Márton"/>
+			<lakcim cim="Martinkertváros"/>
+		</hallgato>
+		<hallgato id="2">
+			<nev neve="Varga Bence"/>
+			<lakcim cim="Diósgyőr"/>
+		</hallgato>
+		<hallgato id="3">
+			<nev neve="Bakos Kristóf"/>
+			<lakcim cim="Miskolc"/>
+		</hallgato>
+		<hallgato id="4">
+			<nev neve="Oravecz Áron"/>
+			<lakcim cim="Budapest"/>
+		</hallgato>
+		<hallgato id="5">
+			<nev neve="László Andrea"/>
+			<lakcim cim="Hajdúnánás"/>
+		</hallgato>
+	</hallgatok>
+
+	<helyszin cim="A1/32"/>
+
+	<eloado>
+		<nev neve="László Andrea"/>
+		<adoszam szam="0123456789"/>
+		<lakcim cim="Hajdúnánás"/>
+	</eloado>
+	
+	<datum date="2022.09.21"/>
+	
+</konferencia>
