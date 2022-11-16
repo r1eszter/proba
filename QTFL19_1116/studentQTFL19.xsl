@@ -8,7 +8,7 @@
       <h2>Hallgatok adatai- for-each, value-of</h2>
 
       <table border="4">
-        <tr bgcolor="black">
+        <tr bgcolor="#808080">
           <th>ID</th>
           <th>Vnev</th>
           <th>Knev</th>
