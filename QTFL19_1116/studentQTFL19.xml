@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<class>
+  <student id="01">
+    <vnev>Rontó</vnev>
+    <knev>Eszter</knev>
+    <becenev>Bogyó</becenev>
+    <kor>21</kor>
+    <osztondij>0</osztondij>
+  </student>
+
+  <student id="02">
+    <vnev>László</vnev>
+    <knev>Andrea</knev>
+    <becenev>Andusz</becenev>
+    <kor>20</kor>
+    <osztondij>50.000</osztondij>
+  </student>
+
+  <student id="03">
+    <vnev>Garamszegi</vnev>
+    <knev>Márton</knev>
+    <becenev>Csucsu</becenev>
+    <kor>21</kor>
+    <osztondij>15.000</osztondij>
+  </student>
+</class>
