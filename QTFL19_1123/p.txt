@@ -1,1 +1,17 @@
+{
+	"_id": "QTFL19",
 
+	"vizsgak": {
+		"vizsga": [
+			"kurzus": "SzamGraf",
+			"helyszin": "A1/3",
+			"idopont": [
+				"nap": 12,
+				"tol": "8:00",
+				"ig": "10:00",
+			]
+			"oktato": "Dr.Juhász Imre",
+			"jegy": 2
+		]
+	}
+}
