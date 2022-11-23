@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root id='QTFL19'>
+  <vizsgak>
+    <vizsga>
+      <kurzus>Optimalizalas</kurzus>
+      <helyszin>A1/33</helyszin>
+      <idopont>
+        <nap>12</nap>
+        <tol>8</tol>
+        <ig>10</ig>
+      </idopont>
+      <oktato>Dr. Körei Attila</oktato>
+      <jegy>4</jegy>
+    </vizsga>
+    <vizsga>
+      <kurzus>Automatak</kurzus>
+      <helyszin>A1/32</helyszin>
+      <idopont>
+        <nap>15</nap>
+        <tol>8</tol>
+        <ig>10</ig>
+      </idopont>
+      <oktato>Dr. Radaleckzi Sándor Lajos</oktato>
+      <jegy>3</jegy>
+    </vizsga>
+  </vizsgak>
+</root>
