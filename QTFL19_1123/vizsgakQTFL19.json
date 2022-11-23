@@ -3,27 +3,28 @@
 
 	"vizsgak": {
 		"vizsga": [{
-			"kurzus": "Optimalizálás",
-			"helyszin": "A1/33",
-			"idopont": {
-				"nap": 12,
-				"tol": 8,
-				"ig": 10
+				"kurzus": "Optimalizalas",
+				"helyszin": "A1/33",
+				"idopont": {
+					"nap": 12,
+					"tol": 8,
+					"ig": 10
+				},
+				"oktato": "Dr. Körei Attila",
+				"jegy": 4
 			},
-			"oktato": "Dr. Körei Attila",
-			"jegy": 4
-		},
-			
-				   
-			"kurzus": "Automaták",
-			"helyszin": "A1/32",
-			"idopont": {
-				"nap": 15,
-				"tol": 8,
-				"ig": 10
-			},
-			"oktato": "Dr. Radaleckzi Sándor Lajos",
-			"jegy": 3
-		}]
+			{
+
+				"kurzus": "Automatak",
+				"helyszin": "A1/32",
+				"idopont": {
+					"nap": 15,
+					"tol": 8,
+					"ig": 10
+				},
+				"oktato": "Dr. Radaleckzi Sándor Lajos",
+				"jegy": 3
+			}
+		]
 	}
 }
