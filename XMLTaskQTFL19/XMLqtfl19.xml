@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orokbefogadas xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaDJ7PNE.xsd">
+
+<!--Gazdik-->
+<gazdi IGszam="123456AB">
+    <Knev>Péter</Knev>
+    <Vnev>Tóth</Vnev>
+    <Lakcim>Miskolc, Dózsa György út 42</Lakcim>
+</gazdi>
+
+<gazdi IGszam="654321CD">
+    <Knev>Eszter</Knev>
+    <Vnev>Bogyó</Vnev>
+    <Lakcim>Mályi, Erkel utca 23</Lakcim>
+</gazdi>
+
+<gazdi IGszam="126534AC">
+    <Knev>Andrea</Knev>
+    <Vnev>László</Vnev>
+    <Lakcim>Miskolc, Eper utca 2</Lakcim>
+</gazdi>
+
+<gazdi IGszam="562143BD">
+    <Knev>Erik</Knev>
+    <Vnev>Súkenik</Vnev>
+    <Lakcim>Miskolc, Fonoda utca 5</Lakcim>
+</gazdi>
+
+
+<!--Ellenorzesek-->
+<ellenorzes Eid="1">
+    <helyszin>Miskolc, Eper utca 2</helyszin>
+    <ellenor>Fehér Feri</ellenor>
+    <ertekeles>8</ertekeles>
+</ellenorzes>
+
+<ellenorzes Eid="2">
+    <helyszin>Mályi, Erkel utca 23</helyszin>
+    <ellenor>Piros Pál</ellenor>
+    <ertekeles>6</ertekeles>
+</ellenorzes>
+
+<ellenorzes Eid="3">
+    <helyszin>Miskolc, Dózsa György út 42</helyszin>
+    <ellenor>Piros Pál</ellenor>
+    <ertekeles>10</ertekeles>
+</ellenorzes>
+
+<ellenorzes Eid="4">
+    <helyszin>Miskolc, Eper utca 2</helyszin>
+    <ellenor>Kék Katalin</ellenor>
+    <ertekeles>10</ertekeles>
+</ellenorzes>
+
+<ellenorzes Eid="5">
+    <helyszin>Miskolc, Fonoda utca 5</helyszin>
+    <ellenor>Kék Katalin</ellenor>
+    <ertekeles>0</ertekeles>
+</ellenorzes>
+
+<ellenorzes Eid="6">
+    <helyszin>Mályi, Erkel utca 23</helyszin>
+    <ellenor>Fehér Feri</ellenor>
+    <ertekeles>8</ertekeles>
+</ellenorzes>
+
+<ellenorzes Eid="7">
+    <helyszin>Mályi, Erkel utca 23</helyszin>
+    <ellenor>Kék Katalin</ellenor>
+    <ertekeles>10</ertekeles>
+</ellenorzes>
+
+
+<!--Megfigyeles kapcsolat-->
+<megfigyeles Igszam="126534AC" Eid="1">
+    <idopont>2022.10.15</idopont>
+</megfigyeles>
+
+<megfigyeles Igszam="654321CD" Eid="2">
+    <idopont>2021.12.18</idopont>
+</megfigyeles>
+
+<megfigyeles Igszam="123456AB" Eid="3">
+    <idopont>2022.10.20</idopont>
+</megfigyeles>
+
+<megfigyeles Igszam="126534AC" Eid="4">
+    <idopont>2022.11.10</idopont>
+</megfigyeles>
+
+<megfigyeles Igszam="562143BD" Eid="5">
+    <idopont>2022.08.29</idopont>
+</megfigyeles>
+
+<megfigyeles Igszam="654321CD" Eid="6">
+    <idopont>2022.05.27</idopont>
+</megfigyeles>
+
+<megfigyeles Igszam="654321CD" Eid="7">
+    <idopont>2022.09.07</idopont>
+</megfigyeles>
+
+
+<!--Nyiltnapok-->
+<nyiltnap NYid="18" befog="654321CD">
+    <helyszin>Miskolc, Telephely utca 21</helyszin>
+    <idopont>
+        <ev>2020</ev>
+        <honap>11</honap>
+        <nap>03</nap>
+    </idopont>
+    <maxfo>15</maxfo>
+</nyiltnap>
+
+<nyiltnap NYid="29" befog="123456AB">
+    <helyszin>Miskolc, Futi út 4</helyszin>
+    <idopont>
+        <ev>2022</ev>
+        <honap>04</honap>
+        <nap>26</nap>
+    </idopont>
+    <maxfo>30</maxfo>
+</nyiltnap>
+
+<nyiltnap NYid="32" befog="123456AB">
+    <helyszin>Miskolc, Futi út 4</helyszin>
+    <idopont>
+        <ev>2022</ev>
+        <honap>09</honap>
+        <nap>07</nap>
+    </idopont>
+    <maxfo>30</maxfo>
+</nyiltnap>
+
+<nyiltnap NYid="119" befog="126534AC">
+    <helyszin>Budapest, Örök utca 19</helyszin>
+    <idopont>
+        <ev>2022</ev>
+        <honap>09</honap>
+        <nap>28</nap>
+    </idopont>
+    <maxfo>50</maxfo>
+</nyiltnap>
+
+<nyiltnap NYid="41" befog="562143BD">
+    <helyszin>Miskolc, Telephely utca 21</helyszin>
+    <idopont>
+        <ev>2022</ev>
+        <honap>12</honap>
+        <nap>11</nap>
+    </idopont>
+    <maxfo>15</maxfo>
+</nyiltnap>
+
+<nyiltnap NYid="18" befog="654321CD">
+    <helyszin>Miskolc, Telephely utca 21</helyszin>
+    <idopont>
+        <ev>2021</ev>
+        <honap>06</honap>
+        <nap>17</nap>
+    </idopont>
+    <maxfo>15</maxfo>
+</nyiltnap>
+
+
+<!--Kutyák-->
+<kutya Kid="f21" befog="562143BD">
+    <fajta>Bullterrier</fajta>
+    <fajta>Bulldog</fajta>
+    <BEdatum>2022.10.10</BEdatum>
+    <nev>Róka</nev>
+</kutya>
+
+<kutya Kid="f28" befog="654321CD">
+    <fajta>Husky</fajta>
+    <fajta>Border Collie</fajta>
+    <fajta>Farkas</fajta>
+    <BEdatum>2021.03.22</BEdatum>
+    <nev>Ronan</nev>
+</kutya>
+
+<kutya Kid="fb10" befog="654321CD">
+    <fajta>Berni pásztor</fajta>
+    <BEdatum>2020.01.12</BEdatum>
+    <nev>Elza</nev>
+</kutya>
+
+<kutya Kid="b12" befog="123456AB">
+    <fajta>Cavapoo</fajta>
+    <fajta>Jack Russel Terrier</fajta>
+    <BEdatum>2022.08.13</BEdatum>
+    <nev>Jack</nev>
+</kutya>
+
+<kutya Kid="b18" befog="126534AC">
+    <fajta>Dán Dog</fajta>
+    <fajta>Németjuhász</fajta>
+    <BEdatum>2022.11.20</BEdatum>
+    <nev>Rex</nev>
+</kutya>
+
+
+<!--OltasiKönyvek-->
+<oltasikonyv K_O="f21" MikroChip="">
+    <oltas>kombinalt</oltas>
+    <nem>hím</nem>
+    <kor>7</kor>
+    <szin>fekete</szin>
+</oltasikonyv>
+
+<oltasikonyv K_O="f28" MikroChip="">
+    <oltas>kombinalt</oltas>
+    <nem>hím</nem>
+    <kor>6</kor>
+    <szin>fekete</szin>
+</oltasikonyv>
+
+<oltasikonyv K_O="fb10" MikroChip="">
+    <oltas>veszetseg elleni</oltas>
+    <nem>nőstény</nem>
+    <kor>12</kor>
+    <szin>trikolor</szin>
+</oltasikonyv>
+
+<oltasikonyv K_O="b12" MikroChip="">
+    <oltas>kombinalt</oltas>
+    <nem>hím</nem>
+    <kor>14</kor>
+    <szin>barna</szin>
+</oltasikonyv>
+
+<oltasikonyv K_O="b18" MikroChip="">
+    <oltas>nincs</oltas>
+    <nem>hím</nem>
+    <kor>9</kor>
+    <szin>barna</szin>
+</oltasikonyv>
